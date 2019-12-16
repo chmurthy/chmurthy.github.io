@@ -1,0 +1,106 @@
+/* Style sheet for Scholars SGC web page */
+
+/* General instructions for font, color, and background image */
+body {
+	font-family: Ariel, Futura, Verdana;
+	color: #FF0000;
+	margin: 10px;
+	background: #87CEEB;
+}
+
+/* General selector values */
+
+/* Paragraph break height */
+p {
+	line-height: 1.4em;
+}
+
+
+/* Heading fonts and formats */
+h2 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: RebeccaPurple;
+	font-size: 2em;
+	margin: 0;
+	padding: 0.1em;
+	padding-left: 1em;
+	text-align: center;
+	font-weight: plain;
+}
+
+h3 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: black;
+	margin: 0;
+}
+
+h6 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: #344152;
+	font-size: 0.75em;
+	margin: 0;
+	padding: 0.1em;
+	padding-left: 1em;
+	text-align: center;
+	font-weight: plain;
+}
+
+/* List formats */
+ul {
+	color: Navy;
+}
+
+/* Margins and alignment for images in the content division */
+#content img {
+			padding: 1px;
+			float: right;
+			margin: 0 0 1em 1em;
+		}
+a {
+	text-decoration: none;
+}
+
+/* Colors for linked text, before and after being clicked */
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: purple;
+}
+
+
+/* Page Layout */
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+
+#content {
+	margin-top: 10px;
+	color: MidnightBlue;
+}
+
+/* Layout for divisions containing images and their captions */
+#picture {
+	padding: 1px;
+	float: right;
+	text-align: center;
+	font-size: 8pt;
+	margin: 0 0 1em 1em;
+	color: black;
+}
+
+/* Layout for alignment of footer */
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#footer img {
+	padding: 10px;
+}
