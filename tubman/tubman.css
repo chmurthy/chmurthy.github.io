@@ -5,7 +5,10 @@ body {
 	font-family: Ariel, Futura, Verdana;
 	color: #FF0000;
 	margin: 10px;
-	background: #87CEEB;
+	background-image: url("images/2021_38_001_HERO_0.jpg");
+    /* Source:
+     * Smithsonian National Museum of African American History & Culture 
+     */
 }
 
 /* General selector values */
@@ -19,7 +22,8 @@ p {
 /* Heading fonts and formats */
 h2 {
 	font-family: Skia, Futura, Verdana, Ariel;
-	color: RebeccaPurple;
+	color: white;
+    text-shadow: 2px 2px 0px black;
 	font-size: 2em;
 	margin: 0;
 	padding: 0.1em;
@@ -28,14 +32,11 @@ h2 {
 	font-weight: plain;
 }
 
-.box_textshadow {
-	text-shadow: 2px 2px 0px #FF0000; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-}
-
 h3 {
 	font-family: Skia, Futura, Verdana, Ariel;
-	color: black;
+	color: red;
 	margin: 0;
+    text-shadow: 2px 2px 0px black;
 }
 
 h6 {
@@ -51,13 +52,14 @@ h6 {
 
 /* List formats */
 ul {
-	color: Navy;
+	color: white;
+    text-shadow: 2px 2px 0px black;
 }
 
 /* Margins and alignment for images in the content division */
 #content img {
 			padding: 1px;
-			float: right;
+			/* float: right; */
 			margin: 0 0 1em 1em;
 		}
 a {
@@ -66,11 +68,11 @@ a {
 
 /* Colors for linked text, before and after being clicked */
 a:link {
-	color: red;
+	color: palegreen;
 }
 
 a:visited {
-	color: purple;
+	color: green;
 }
 
 
@@ -84,17 +86,19 @@ a:visited {
 
 #content {
 	margin-top: 10px;
-	color: MidnightBlue;
+	color: white;
+    float:left;
 }
 
 /* Layout for divisions containing images and their captions */
 #picture {
 	padding: 1px;
-	float: center;
+	float: right;
 	text-align: center;
 	font-size: 8pt;
 	margin: 0 0 1em 1em;
-	color: black;
+	color: white;
+    text-shadow: 2px 2px 0px black;
 }
 
 #center {
@@ -103,6 +107,20 @@ a:visited {
 	margin-right: auto;
 	width: 50%;
 }
+
+/* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 pic {
 	padding: 1px;
